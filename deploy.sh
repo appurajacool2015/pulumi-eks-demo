@@ -4,6 +4,7 @@ docker build -t appurajacool2015/ekspulumispringbootpostgresrestapidemo .
 # we can docker login as a initial step
 #docker login
 docker push appurajacool2015/ekspulumispringbootpostgresrestapidemo
+docker push appurajacool2015/gkepulumispringbootpostgresrestapidemo
 kubectl apply -f postgres-secrets.yaml
 kubectl apply -f postgres-storage.yaml
 kubectl apply -f postgres-deployment.yaml
