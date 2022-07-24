@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: pulumi-eks-demo
+  name: pulumi-eks-demo
+spec:
+  ports:
+    - name: pulumi-eks-demo
+      port: 8080
+      protocol: TCP
+  selector:
+    app: pulumi-eks-demo
+  type: LoadBalancer
