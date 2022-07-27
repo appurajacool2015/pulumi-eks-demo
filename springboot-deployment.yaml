@@ -33,3 +33,4 @@ spec:
                 name: hostname-config
                 key: postgres_host
         image: appurajacool2015/ekspulumispringbootpostgresrestapidemo:latest
+        imagePullPolicy: Always
